@@ -6,8 +6,6 @@ import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Switch } from "@/components/ui/switch"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
-import { getSession, useSession } from "next-auth/react"
-
 
 
 export default function HeroSection({ darkMode, setDarkMode , doctor}) {

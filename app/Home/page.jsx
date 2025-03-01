@@ -185,7 +185,7 @@ function App() {
               transition={{ delay: 0.6, duration: 0.8 }}
               className="flex flex-col sm:flex-row justify-center gap-4"
             >
-              <Link href={'/Login/role'}>
+              <Link href={'/login'}>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
